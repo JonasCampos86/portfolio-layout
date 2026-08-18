@@ -40,3 +40,21 @@ src/styles/
 │   └── _information.scss
 │
 └── main.scss
+```
+
+## Desarrollo
+
+Para ejecutar el proyecto en local:
+
+```bash
+npm install
+npm run dev
+```
+
+## Sobre el proyecto
+
+Este proyecto está centrado principalmente en la maquetación y los estilos.
+
+JavaScript no contiene lógica de aplicación; se utiliza únicamente como punto de entrada para cargar los estilos SCSS mediante Vite.
+
+El contenido mostrado pertenece al diseño ficticio utilizado para realizar el ejercicio y no representa mi experiencia profesional personal.
