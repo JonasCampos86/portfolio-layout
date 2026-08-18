@@ -21,6 +21,12 @@ El objetivo del proyecto fue reproducir una interfaz completa adaptada a distint
 - Formulario de contacto maquetado con validación visual mediante CSS.
 - Uso de elementos semánticos y atributos de accesibilidad.
 
+## Demo
+
+El proyecto está disponible online para visualizar la maquetación responsive y comprobar su adaptación a distintos tamaños de pantalla.
+
+[Ver demo](https://css-tarea-proyecto-04-porfolio.netlify.app/)
+
 ## Estructura de estilos
 
 Los estilos están organizados en diferentes módulos:
