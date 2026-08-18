@@ -25,7 +25,7 @@ El objetivo del proyecto fue reproducir una interfaz completa adaptada a distint
 
 El proyecto está disponible online para visualizar la maquetación responsive y comprobar su adaptación a distintos tamaños de pantalla.
 
-[Ver demo](https://portfolio-layout.netlify.app/)
+[Ver demo](https://portfolio-layout-jonas.netlify.app/)
 
 ## Estructura de estilos
 
