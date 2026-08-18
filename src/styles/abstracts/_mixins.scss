@@ -24,21 +24,7 @@
 // Uso: @include m.btn
 // ============================
 
-@mixin btn($bg:v.$black,$bgh:blue,$c:white){
-  display: inline-block;
-  padding: 1.2rem 3rem;
-  background-color: $bg;
-  color: $c;
-  text-decoration: none;
-  border-radius: 16px;
-  
-  transition: all 0.3s ease;
 
-  &:hover {
-    background-color: $bgh;
-    color: white;
-  }
-}
 
 
 // Reseteo de listas

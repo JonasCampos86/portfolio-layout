@@ -6,9 +6,11 @@
     <!-- Para que la web sea responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Descripción de la página para los buscadores -->
-    <meta name="description" content="muestra de proyectos y carrera profesional">
+    <meta name="description" 
+    content="Recreación de un portfolio responsive desarrollada como proyecto 
+    académico con HTML, Sass/SCSS y Vite.">
     <!-- Título para el navegador y los buscadores -->
-    <title>adamkeyes</title>
+    <title>Adam Keyes | Portfolio Layout</title>
     <!-- Autor de la página -->
     <meta name="author" content="@JonasCampos86">
     <!-- Para algunos navegadores móviles -->
@@ -45,179 +47,181 @@
       </nav>
     </div>
   </header>
-    <div class="container">
-      <div class="hero__principal">
-          <picture class="adampicture">
-            <source media="(min-width: 1440px)" srcset="/Group-image-desktop.svg">
-            <source media="(min-width: 768px)" srcset="/Group-image-tablet.svg">
-            <img src="/Group-image.svg" alt="photography">
-          </picture>
-          <div class="hero__info">
-            <h1 class="title__principal">
-            Nice to <br class="jump"> meet you! I’m <span>Adam Keyes</span>.
-            </h1>
-            <p class="description">
-            Based in the UK, I’m a front-end developer 
-            passionate about building accessible web 
-            apps that users love.
-            </p>
-          </div>  
-            <a href="#" class="contact">CONTACT ME</a>
-          
-      </div>
-    </div>
-    <hr>
-    <div class="container">
-      <div class="hero__secundary">
-        <article>
-          <h3>HTML</h3>
-          <p>4 Years Experience</p>
-        </article>
-        <article>
-          <h3>CSS</h3>
-          <p>4 Years Experience</p>
-        </article>
-        <article>
-          <h3>Javascript</h3>
-          <p>4 Years Experience</p>
-        </article>
-        <article>
-          <h3>Accessibility</h3>
-          <p>4 Years Experience</p>
-        </article>
-        <article>
-          <h3>React</h3>
-          <p>3 Years Experience</p>
-        </article>
-        <article>
-          <h3>Sass</h3>
-          <p>3 Years Experience</p>
-        </article>  
-      </div>
-    </div>
-    <hr class="separation_2">
-    <div class="container">
-      <section class="information">
-        <header class="header__information">
-          <h2 class="title__information">Projects</h2>
-          <a href="#" class="contact">CONTACT ME</a>
-        </header>
-        <div class="hero__information">
-          <article class="project__info">
-            <picture>
-              <source media="(min-width: 1440px)" srcset="/desing-porfolio-desktop.svg">
-              <img src="/desing-porfolio-mobile.svg" alt="desing porfolio mobile">
-            </picture>
-            <h4>DESIGN PORTFOLIO</h4>
-            <div class="technologies">
-              <p>HTML</p><p>CSS</p>
-            </div>
-            <a  class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
-          </article>
-          <article class="project__info">
-            <picture>
-              <source media="(min-width: 1440px)" srcset="/e-learning-page-desktop.svg">
-              <img src="/e-learning-page-mobile.svg" alt="e learning page">
-            </picture>
-            <h4>E-LEARNING LANDING PAGE</h4>
-            <div class="technologies">
-              <p>HTML</p><p>CSS</p>
-            </div>
-            
-            <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
-          </article>
-          <article class="project__info">
-            <picture>
-              <source media="(min-width: 1440px)" srcset="/todo-web-app-desktop.svg">
-              <img src="/todo-web-app-mobile.svg" alt="todo web app">
-            </picture>
-            <h4>TODO WEB APP</h4>
-            <div class="technologies">
-              <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
-            </div>
-            
-            <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
-          </article>
-          <article class="project__info">
-            <picture>
-              <source media="(min-width: 1440px)" srcset="/entertaimen-wep-app-desktop.svg" >
-              <img src="/entertaimen-wep-app-mobile.svg" alt="entertaimen wep app">
-            </picture>
-            <h4>ENTERTAINMENT WEB APP</h4>
-            <div class="technologies">
-              <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
-            </div>
-            
-            <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
-          </article>
-          <article class="project__info">
-            <picture>
-              <source media="(min-width: 1440px)" srcset="/memory-game-desktop.svg" >
-              <img src="/memory-game-mobile.svg" alt="memory game">
-            </picture>
-            <h4>MEMORY GAME</h4>
-            <div class="technologies">
-              <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
-            </div>
-            
-            
-            <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
-          </article>
-          <article class="project__info">
-            <picture>
-              <source media="(min-width: 1440px)" srcset="/art-gallery-showcase-desktop.svg"  >
-              <img src="/art-gallery-showcase-mobile.svg" alt="art gallery showcase">
-            </picture>
-            <h4>ART GALLERY SHOWCASE</h4>
-            <div class="technologies">
-              <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
-            </div>
-            <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
-          </article>
-        </div>
-      </section>
-    </div>
-    <footer>
+    <main>
       <div class="container">
-        <div class="info__footer">
-          <h2 class="title__footer">Contact</h2>
-          <p class="subtitle__footer">
-        I would love to hear about your project and 
-        how I could help. Please fill in the form, and 
-        I’ll get back to you as soon as possible.
-          </p>
+        <div class="hero__principal">
+            <picture class="adampicture">
+              <source media="(min-width: 1440px)" srcset="/Group-image-desktop.svg">
+              <source media="(min-width: 768px)" srcset="/Group-image-tablet.svg">
+              <img src="/Group-image.svg" alt="photography">
+            </picture>
+            <div class="hero__info">
+              <h1 class="title__principal">
+              Nice to <br class="jump"> meet you! I’m <span>Adam Keyes</span>.
+              </h1>
+              <p class="description">
+              Based in the UK, I’m a front-end developer 
+              passionate about building accessible web 
+              apps that users love.
+              </p>
+            </div>  
+              <a href="#contact" class="contact">CONTACT ME</a>
+            
         </div>
-        <form action="/registrar-cliente/" name="registro" method="get" novalidate autocomplete="off">
-        <label for="name" class="visually-hidden">NAME</label>
-        <input type="text" id="name" name="name"  placeholder="NAME"> 
-        <label for="email" class="visually-hidden">EMAIL</label>
-        <input type="email" id="email" name="email" placeholder="EMAIL">
-        <span class="error-message">Sorry, invalid format here</span>
-        <label for="msn" class="visually-hidden">MESSAGE</label>
-        <textarea name="message" id="msn" placeholder="MESSAGE" ></textarea>
-        <br>  
-        <button >SEND MESSAGE</button>
-        </form>
-        
       </div>
       <hr>
-      <div class="ending">
-          <div class="logotype">
-          <img src="/adamkeyes-logo-mobile.svg" alt="logo">
-          </div>
-          <nav class="nav__principal">
-        <ul>
-          <li><a href="#" aria-label="GitHub profile"> <i class="fa-brands fa-github"></i></a></li>
-          <li><a href="#" aria-label="Frontend Mentor profile" >
-              <svg role="img" class="icon--frontendmentor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Frontend Mentor</title><path d="M12.1706 1.2719a.732.732 0 00-.7186.732v13.914a.732.732 0 00.732.732.732.732 0 00.7318-.732V2.004a.732.732 0 00-.7452-.732zm11.0741 4.1685a.7339.7339 0 00-.2764.063L16.686 8.307a.7329.7329 0 000 1.3361l6.2823 2.8134a.7378.7378 0 00.2993.0648.732.732 0 00.2973-1.401l-4.786-2.1443 4.786-2.1366a.7339.7339 0 00.3698-.9664.7339.7339 0 00-.69-.4327zm-22.499 5.032a.7316.7316 0 00-.7223.9149c1.736 6.677 7.7748 11.341 14.6822 11.341a.732.732 0 000-1.464 13.7055 13.7055 0 01-13.266-10.2449.7316.7316 0 00-.6939-.547z"/></svg>
-              </a>
-          </li>
-          <li><a href="#" aria-label="LinkedIn profile"> <i class="fa-brands fa-linkedin"></i></a></li>
-          <li><a href="#" aria-label="Twitter profile"> <i class="fa-brands fa-twitter"></i></a></li>
-        </ul>
-          </nav>
+      <div class="container">
+        <div class="hero__secundary">
+          <article>
+            <h3>HTML</h3>
+            <p>4 Years Experience</p>
+          </article>
+          <article>
+            <h3>CSS</h3>
+            <p>4 Years Experience</p>
+          </article>
+          <article>
+            <h3>Javascript</h3>
+            <p>4 Years Experience</p>
+          </article>
+          <article>
+            <h3>Accessibility</h3>
+            <p>4 Years Experience</p>
+          </article>
+          <article>
+            <h3>React</h3>
+            <p>3 Years Experience</p>
+          </article>
+          <article>
+            <h3>Sass</h3>
+            <p>3 Years Experience</p>
+          </article>  
+        </div>
       </div>
-      
+      <hr class="separation_2">
+      <div class="container">
+        <section class="information">
+          <header class="header__information">
+            <h2 class="title__information">Projects</h2>
+            <a href="#contact" class="contact">CONTACT ME</a>
+          </header>
+          <div class="hero__information">
+            <article class="project__info">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="/desing-porfolio-desktop.svg">
+                <img src="/desing-porfolio-mobile.svg" alt="desing porfolio mobile">
+              </picture>
+              <h4>DESIGN PORTFOLIO</h4>
+              <div class="technologies">
+                <p>HTML</p><p>CSS</p>
+              </div>
+              <a  class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
+            </article>
+            <article class="project__info">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="/e-learning-page-desktop.svg">
+                <img src="/e-learning-page-mobile.svg" alt="e learning page">
+              </picture>
+              <h4>E-LEARNING LANDING PAGE</h4>
+              <div class="technologies">
+                <p>HTML</p><p>CSS</p>
+              </div>
+              
+              <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
+            </article>
+            <article class="project__info">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="/todo-web-app-desktop.svg">
+                <img src="/todo-web-app-mobile.svg" alt="todo web app">
+              </picture>
+              <h4>TODO WEB APP</h4>
+              <div class="technologies">
+                <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
+              </div>
+              
+              <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
+            </article>
+            <article class="project__info">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="/entertaimen-wep-app-desktop.svg" >
+                <img src="/entertaimen-wep-app-mobile.svg" alt="entertaimen wep app">
+              </picture>
+              <h4>ENTERTAINMENT WEB APP</h4>
+              <div class="technologies">
+                <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
+              </div>
+              
+              <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
+            </article>
+            <article class="project__info">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="/memory-game-desktop.svg" >
+                <img src="/memory-game-mobile.svg" alt="memory game">
+              </picture>
+              <h4>MEMORY GAME</h4>
+              <div class="technologies">
+                <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
+              </div>
+              
+              
+              <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
+            </article>
+            <article class="project__info">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="/art-gallery-showcase-desktop.svg"  >
+                <img src="/art-gallery-showcase-mobile.svg" alt="art gallery showcase">
+              </picture>
+              <h4>ART GALLERY SHOWCASE</h4>
+              <div class="technologies">
+                <p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
+              </div>
+              <a class="contact" href="#">VIEW PROJECT</a> <a class="contact" href="#">VIEW CODE</a>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer id="contact">
+          <div class="container">
+            <div class="info__footer">
+              <h2 class="title__footer">Contact</h2>
+              <p class="subtitle__footer">
+            I would love to hear about your project and 
+            how I could help. Please fill in the form, and 
+            I’ll get back to you as soon as possible.
+              </p>
+            </div>
+            <form action="/registrar-cliente/" name="registro" method="get" novalidate autocomplete="off">
+            <label for="name" class="visually-hidden">NAME</label>
+            <input type="text" id="name" name="name"  placeholder="NAME"> 
+            <label for="email" class="visually-hidden">EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="EMAIL">
+            <span class="error-message">Sorry, invalid format here</span>
+            <label for="msn" class="visually-hidden">MESSAGE</label>
+            <textarea name="message" id="msn" placeholder="MESSAGE" ></textarea>
+            <br>  
+            <button type="submit" >SEND MESSAGE</button>
+            </form>
+            
+          </div>
+          <hr>
+          <div class="ending">
+              <div class="logotype">
+              <img src="/adamkeyes-logo-mobile.svg" alt="logo">
+              </div>
+              <nav class="nav__principal">
+            <ul>
+              <li><a href="#" aria-label="GitHub profile"> <i class="fa-brands fa-github"></i></a></li>
+              <li><a href="#" aria-label="Frontend Mentor profile" >
+                  <svg role="img" class="icon--frontendmentor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Frontend Mentor</title><path d="M12.1706 1.2719a.732.732 0 00-.7186.732v13.914a.732.732 0 00.732.732.732.732 0 00.7318-.732V2.004a.732.732 0 00-.7452-.732zm11.0741 4.1685a.7339.7339 0 00-.2764.063L16.686 8.307a.7329.7329 0 000 1.3361l6.2823 2.8134a.7378.7378 0 00.2993.0648.732.732 0 00.2973-1.401l-4.786-2.1443 4.786-2.1366a.7339.7339 0 00.3698-.9664.7339.7339 0 00-.69-.4327zm-22.499 5.032a.7316.7316 0 00-.7223.9149c1.736 6.677 7.7748 11.341 14.6822 11.341a.732.732 0 000-1.464 13.7055 13.7055 0 01-13.266-10.2449.7316.7316 0 00-.6939-.547z"/></svg>
+                  </a>
+              </li>
+              <li><a href="#" aria-label="LinkedIn profile"> <i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="#" aria-label="Twitter profile"> <i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+              </nav>
+          </div>
+          
     </footer>
   </body>
   

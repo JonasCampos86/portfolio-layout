@@ -114,11 +114,9 @@
             width: 100%;
             height: 4px;
             background-color: v.$celeste;
-            size: 3px;
             bottom:0;
             @include m.breakpoint(desktop-xl){
                 bottom:6px;
-                size: 4px;
                 z-index: -1;
             }
 
